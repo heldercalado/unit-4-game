@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Crystals Game</title>
+</head>
+
+<body>
+    <div class="container ">
+        <nav class="navbar navbar-expand-lg navbar-trans">
+            <a class="navbar-brand logo-custom" href="#">Crystals Game</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="rules.html">Rules<span class="sr-only">(current)</span></a>
+                    </li>
+                    
+
+
+                </ul>
+
+            </div>
+        </nav>
+
+        <div class="gameBoard">
+            <div class="card w-100 outter-color">
+
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="title-img-game" src="./assets/images/gif2.gif" alt="Card image cap">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="card-title game_title">Crystals Game</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <img class="title-img-game" src="./assets/images/gif2.gif" alt="Card image cap">
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="objective">
+                                <h4>Number to Match: <span id="number_to_match">0</span></h4>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="">
+                                <div class="card custom-color">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="img-game" src="./assets/images/gem1.png" alt="Card image cap" id="gem1">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="img-game" src="./assets/images/gem2.png" alt="Card image cap" id="gem2">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="img-game" src="./assets/images/gem3.png" alt="Card image cap" id="gem3">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="img-game" src="./assets/images/gem4.png" alt="Card image cap" id="gem4">
+                                        </div>
+                                    </div>
+                                    <div class="card-body  game-stats">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                    <div class="objective">
+                                                            <h4>Current Sum:  <span id="currentsum">0</span></h4>
+                                                        </div>
+                                            </div>
+                                           
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-md-6">
+                                                        <p class="card-text ">Wins: <span id="wins">0</span> </p>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p class="card-text right-align">Losses: <span id="losses">0</span> </p>
+                                                </div>
+                                            </div>
+                                        
+                                        <p class="card-text"><span id="timer"></span> </p>
+
+                                       
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+<!-- <script src="./assets/javascript/game.js"></script> -->
+<script src="./assets/javascript/game.js"></script>
+
+
+    </body>
+
+</html>
